@@ -1,0 +1,13 @@
+.account-bar { display: flex; align-items: center; justify-content: flex-end; gap: 10px; max-width: 1024px; margin: 0 auto; padding: 10px 24px 0; font-size: 14px; }
+.account-link { padding: 6px 2px; color: #555b63; font-weight: 600; }
+.account-link:hover { color: #212124; text-decoration: underline; }
+.account-link--strong { color: #ff6f0f; }
+.account-chat { display: inline-flex; align-items: center; gap: 5px; min-height: 30px; padding: 4px 2px; color: #555b63; font-weight: 600; white-space: nowrap; }
+.account-chat:hover { color: #212124; text-decoration: underline; }
+.account-unread { display: inline-flex; align-items: center; justify-content: center; min-width: 18px; height: 18px; padding: 0 5px; border-radius: 9px; background: #ff6f0f; color: #fff; font-size: 11px; font-weight: 700; line-height: 1; }
+.account-avatar { width: 26px; height: 26px; margin-left: 8px; border-radius: 50%; object-fit: cover; }
+.account-name { font-weight: 700; color: #212124; }
+.account-logout { padding: 6px 2px; border: 0; background: none; color: #868b94; font: inherit; font-size: 14px; cursor: pointer; }
+.account-logout:hover { color: #555b63; text-decoration: underline; }
+.account-logout:disabled { cursor: wait; }
+@media (max-width: 600px) { .account-bar { padding: 10px 16px 0; } .account-avatar { margin-left: 4px; } }

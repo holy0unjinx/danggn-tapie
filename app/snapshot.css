@@ -1,0 +1,10 @@
+[hidden] { display: none !important; }
+.snapshot-empty { padding: 72px 16px; text-align: center; color: #868b94; }
+.snapshot-empty h1 { margin: 0 0 12px; font-size: 20px; color: #212124; }
+.snapshot-empty a { color: #ff6f0f; }
+.snapshot-write-link { flex-shrink: 0; white-space: nowrap; text-decoration: none; }
+._1t0uzcx0:has(.snapshot-write-link) { width: 100%; justify-content: space-between; }
+.snapshot-mobile-write-link.snapshot-mobile-write-link { display: none; }
+@media (max-width: 600px) { .snapshot-write-link.snapshot-write-link { display: none; } .snapshot-mobile-write-link.snapshot-mobile-write-link { display: inline-flex; position: fixed; right: 16px; bottom: 20px; z-index: 50; box-shadow: 0 4px 16px #00000026; } }
+._4y5lbr1 { margin-top: 16px; }
+.article-seller { padding-top: 16px; padding-bottom: 16px; }
